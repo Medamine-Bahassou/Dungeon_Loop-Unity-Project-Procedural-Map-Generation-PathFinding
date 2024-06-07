@@ -97,11 +97,26 @@ public class CollecteCoin : MonoBehaviour
 
         foreach (GameObject coin in coinPath)
         {
-            if (coinsCollected >= maxCoinsToCollect) break;
-
-            while (coin != null && Vector3.Distance(transform.position, coin.transform.position) > 0.1f)
+            if (coinsCollected >= maxCoinsToCollect ) break;
+                
+            while (coin != null && Vector3.Distance(transform.position, coin.transform.position) > 0.1f )
             {
+                /*
+                if(Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
+                {
+                    transform.position = Vector3.MoveTowards(transform.position, coin.transform.position, moveSpeed * Time.deltaTime);
+
+                }
+                */
+
                 transform.position = Vector3.MoveTowards(transform.position, coin.transform.position, moveSpeed * Time.deltaTime);
+
+                /*
+                else
+                {
+                    break; 
+                }
+                */
                 yield return null;
             }
 
@@ -270,8 +285,9 @@ public class CollecteCoin : MonoBehaviour
     {
         if (target == null) return;
 
-        transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-
+        if (Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
+            transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+        else isCollecting = false;
         if (Vector3.Distance(transform.position, target.position) < 0.1f)
         {
             if (target.CompareTag("coin"))

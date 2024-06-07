@@ -25,6 +25,10 @@ public class Weapon : MonoBehaviour
         }
     }
     public Player coin;
+
+    [SerializeField]
+    private UICoin uiCoinPrefab;
+
     public bool AmmoFull { get => Ammo >= weaponData.AmmoCapacity; }
 
     protected bool isShooting = false;
@@ -61,6 +65,8 @@ public class Weapon : MonoBehaviour
         {
             upgradeActivated = true;
             uilevel.Udpatelevel(2);
+            coin.coin -= 200;
+            uiCoinPrefab.UdpateCoin(coin.coin);
         }
     }
 

@@ -2190,6 +2190,7 @@ MonoBehaviour:
   boss: {fileID: 927351014}
   enemies: {fileID: 1362663870}
   Coin: {fileID: 5215235694233209180, guid: c50377ff0525cb2468184791b5a8762b, type: 3}
+  numOfCoins: 20
   instantiatedEnemies:
   - {fileID: 0}
   - {fileID: 0}
@@ -2515,7 +2516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: Loby
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3633cd9cbd1a984fa8b7b6d27fc1bd4, type: 2}
   m_sharedMaterial: {fileID: 677526743662744587, guid: f3633cd9cbd1a984fa8b7b6d27fc1bd4, type: 2}
@@ -5046,7 +5047,7 @@ GameObject:
   - component: {fileID: 626045788}
   - component: {fileID: 626045787}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: Loby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5116,10 +5117,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1532174342}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1232053536}
+        m_TargetAssemblyTypeName: LoadingSlider, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6008,73 +6009,7 @@ MonoBehaviour:
   detectRadius: 0
   tilemaps:
   - {fileID: 2039705126}
-  instantiatedItems:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  instantiatedItems: []
   items:
   - {fileID: 2114110216}
   Spawner: {fileID: 1362663870}
@@ -6104,7 +6039,7 @@ GameObject:
   - component: {fileID: 770819514}
   - component: {fileID: 770819513}
   m_Layer: 5
-  m_Name: Gun Menu
+  m_Name: ' Menu'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23220,7 +23155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc72394465a95a64fb12d7bb3e7ac39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
+  maxHealth: 5
   startPosition: {x: 0, y: 0, z: 0}
   dungeonGenerator: {fileID: 308156609}
   <uiHealth>k__BackingField: {fileID: 1134915056}
@@ -24924,7 +24859,7 @@ GameObject:
   - component: {fileID: 1532174343}
   - component: {fileID: 1532174345}
   m_Layer: 5
-  m_Name: PausePanel
+  m_Name: PausePanel + Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26015,7 +25950,7 @@ GameObject:
   - component: {fileID: 1860819137}
   - component: {fileID: 1860819136}
   m_Layer: 5
-  m_Name: Canvas AMINE
+  m_Name: Canvas A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26713,6 +26648,7 @@ MonoBehaviour:
   ammo: 10
   weaponData: {fileID: 11400000, guid: c0becf8718c5bba4c9591cbcddc0267c, type: 2}
   coin: {fileID: 1318366073}
+  uiCoinPrefab: {fileID: 1134915059}
   uilevel: {fileID: 1134915058}
   reloadCoroutine: 0
   <OnShoot>k__BackingField:

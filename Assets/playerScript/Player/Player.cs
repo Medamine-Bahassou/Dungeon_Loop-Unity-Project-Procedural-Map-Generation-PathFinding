@@ -126,6 +126,7 @@ public class Player : MonoBehaviour, IAgent, IHittable
         {
             Health = maxHealth ;
             coin -= 30;
+            uiCoinPrefab.UdpateCoin(coin);
         }
         else
         {
@@ -143,6 +144,7 @@ public class Player : MonoBehaviour, IAgent, IHittable
         {
             playeWeapon.FullAmmo(100);
             coin -= 20;
+            uiCoinPrefab.UdpateCoin(coin);
         }
         else
         {
