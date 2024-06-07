@@ -15,6 +15,8 @@ public class Weapon : MonoBehaviour
     protected int ammo = 10;
     [SerializeField]
     protected WeaponDataSO weaponData;
+    [SerializeField]
+    private UICoin uiCoinPrefab;
     public int Ammo
     {
         get { return ammo; }
