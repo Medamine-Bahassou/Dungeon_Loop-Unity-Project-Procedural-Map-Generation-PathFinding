@@ -1,5 +1,5 @@
 # Play the game for free ! 
-<a href="https://play.unity.com/mg/other/dungeon-loop-webgl" style="display:inline-block; padding:10px 20px; font-size:16px; font-weight:bold; color:#ffffff; background-color:#007bff; text-align:center; text-decoration:none; border-radius:5px;">Play The Game</a>
+[Play The Game](https://play.unity.com/mg/other/dungeon-loop-webgl)
 
 # Procedural 2D Top-Down Game
 
