@@ -1,5 +1,6 @@
 # Play the game for free ! 
-<a href="https://play.unity.com/mg/other/dungeon-loop-webgl" target="_blank">Play The Game</a>
+<a href="https://play.unity.com/mg/other/dungeon-loop-webgl" style="display:inline-block; padding:10px 20px; font-size:16px; font-weight:bold; color:#ffffff; background-color:#007bff; text-align:center; text-decoration:none; border-radius:5px;">Play The Game</a>
+
 # Procedural 2D Top-Down Game
 
 ![eee](https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/aa0a599e-fe1e-4033-bb21-0a1b91c24d37)
