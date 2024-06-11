@@ -3,7 +3,7 @@
 
 # Procedural 2D Top-Down Game
 
-![eee](https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/aa0a599e-fe1e-4033-bb21-0a1b91c24d37)
+![eee](https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/08dcd2f0-782b-4092-8cb6-f7bb3afa5308)
 
 ## Description
 This project is a 2D top-down game featuring procedural map generation, as well as pathfinding algorithms such as Dijkstra and A* (A star). The game provides an immersive experience with dynamically generated maps and challenging navigation scenarios.
