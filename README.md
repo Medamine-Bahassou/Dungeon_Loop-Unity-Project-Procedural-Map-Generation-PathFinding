@@ -2,8 +2,7 @@
 [![1399](https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/79ccd927-a2ba-411d-b39c-356a5f823d36)](https://play.unity.com/mg/other/dungeon-loop-webgl)
 
 # Procedural 2D Top-Down Game
-
-![eee](https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/08dcd2f0-782b-4092-8cb6-f7bb3afa5308)
+![images](https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/b974d94d-f7b5-4a66-96ea-f17b91cdf2ce)
 
 ## Description
 This project is a 2D top-down game featuring procedural map generation, as well as pathfinding algorithms such as Dijkstra and A* (A star). The game provides an immersive experience with dynamically generated maps and challenging navigation scenarios.
