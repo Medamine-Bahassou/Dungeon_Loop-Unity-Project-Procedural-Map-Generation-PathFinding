@@ -18,7 +18,9 @@ This project is a 2D top-down game featuring procedural map generation, as well 
 
 # Procedural 2D Top-Down Game
 
-![images](https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/b974d94d-f7b5-4a66-96ea-f17b91cdf2ce)
+<div align='center'>
+      <img src="https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/b974d94d-f7b5-4a66-96ea-f17b91cdf2ce" width="250"/>
+</div>
 
 
 ## Features
