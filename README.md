@@ -2,11 +2,14 @@
   <img src="https://github.com/user-attachments/assets/ed638755-c3bb-4730-9606-99d0695b85cc" width="250"/>
 </div>
 # Dungeon Loop
+
 <div align='center'>
   <a href="https://play.unity.com/mg/other/dungeon-loop-webgl">
     <img src="https://github.com/Medamine-Bahassou/Unity-Project-Procedural-Map-Generation-PathFinding/assets/146652318/79ccd927-a2ba-411d-b39c-356a5f823d36" width="250"/>
   </a>
 </div>
+
+<br/>
 
 This project is a 2D top-down game featuring procedural map generation, as well as pathfinding algorithms such as Dijkstra and A* (A star). The game provides an immersive experience with dynamically generated maps and challenging navigation scenarios.
 
